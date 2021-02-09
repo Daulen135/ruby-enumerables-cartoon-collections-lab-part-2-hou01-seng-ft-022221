@@ -31,14 +31,14 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.find {|elements|valid_calls.include?(planeteer_calls)}
+  planeteer_calls.find {|elements|valid_calls.include?}
   
  #|planeteer_call| valid_calls.include?(planeteer_call) }
   
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
 
-[1,2,3].find { |num| num.even? } # => 2
+#1,2,3].find { |num| num.even? } # => 2
 end
 
 
